@@ -1,0 +1,150 @@
+
+
+    
+     body {
+        background-color: lightcyan;
+      }
+     h1 {
+         color: darkslategray;
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         border-style: dotted;
+         border-width: 4px; 
+         width: 40%;
+       padding: 10px;
+        text-align: center;
+    }
+    
+     h3 {
+         color:darkslategray;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         text-transform: uppercase;
+     }
+    
+     main {
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         font-size: 16px;
+         border: 1px solid gray;
+         border-radius: 12px;
+         padding: 8px;
+         width: 60%;
+         margin: 5%;
+
+     }
+     .button {
+        background-color: darkslategray; 
+        border: none;
+        color: whitesmoke;
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      .topnav {
+        background-color:darkslategray;
+        overflow: hidden;
+        height: 36px;
+      }
+      section {
+          color: black;
+          font-size: 14px;
+          letter-spacing: 1px;
+      }
+        ul.a {
+            list-style-type: circle; 
+            box-sizing: content-box;
+            width: 80px;
+            height: 80px;
+            padding: 30px;  
+            border: 10px solid plum;
+            }
+    #indent {
+        text-indent: 20px;
+    }
+    #fun {
+        color: plum;
+        background-color: powderblue;
+        width: 40%;
+    }
+    #ellie {
+        font-size: 8px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration-line: underline;
+    }
+    #animation {
+    width: 100px;
+    height: 100px;
+    background-color:plum;
+    animation-name: example;
+    animation-duration: 30s;
+    }
+    @keyframes example {
+        0%   {background-color:palevioletred;}
+        25%  {background-color: rebeccapurple;}
+        50%  {background-color: darkmagenta;}
+        100% {background-color:lightseagreen;}
+    }
+    #yay {
+        font-size: 20px;
+        width:fit-content;
+        height: 15%;
+        border: 2px dotted purple;
+        padding: 50px   
+    }
+        
+
+    .hi p {
+        color: green;
+    }
+
+
+
+/*
+div {
+    background: red;
+    height: 100px;
+    width: 300px;
+    display: inline;
+}
+span {
+    background: greenyellow;
+    height: 100px;
+    width: 300px;
+    display: block;
+
+}
+.special {
+    color: red;
+}
+.special2 {
+    background: black;
+}
+
+ a {
+     color: black;
+ }   
+
+ section a {
+     color: green;
+ }
+ 
+ .container {
+     color: orange;
+ }
+
+ p {
+     font-size: 12px;
+ }
+
+ p {
+     font-size: 32px;
+ }
+
+ p{
+     font-size: 50px!important;
+ }
+ p {
+     font-family: monospace;
+ }
+ */
